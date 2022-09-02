@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url(https://www.stockvault.net/data/2016/05/21/199268/preview16.jpg);
+    background-repeat: repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fondo {
+    background-image: url(https://razonpublica.com/wp-content/uploads/2020/09/choco-quibdo-necesidades-daryl-palacios.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+
+#menu{
+    display: block;
+    float: right; 
+    padding-right: 10px;
+    padding-top: 50px;
+
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+
+#menu ul li {
+    background-color: rgba(19, 144, 228, 0.548);
+}
+
+#menu ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none; 
+    font-weight: 400;
+    font-size: 15px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li:hover {
+    background: #2433b97c;
+}
+
+/* menu desplegable */
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background:rgba(255, 255, 255, 0.781);
+    padding: 0; 
+}
+
+/* items del menu desplegable */
+#menu ul ul li {
+    float: none;
+    width: 150px;
+}
+
+/* enlaces de los items del menu desplegable */
+#menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+
+/* items del menu desplegable al pasar el ratón */
+#menu ul li:hover > ul {
+    display: block;
+}
+
+#Contenido {
+    background-color: rgba(17, 117, 211, 0.295);
+    background: linear-gradient(#258fcc81, #000046a2 );
+    padding: 10px;
+}
+
+.contenedorCont h3 {
+    text-align: center;
+    background-color: rgba(4, 0, 255, 0.459);
+    color: white;
+}
+
+#Principal , #titulo {
+    color: #fff;
+    background-color: rgba(0, 26, 255, 0.185);
+}
+
+.ContenedorNav h1 {
+    color: #fff;
+    background-color: rgba(0, 255, 255, 0.158);
+}
+
+.ContenedorPrin ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#imagen1 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(7, 7, 8, 0.582);
+    
+}
+
+#imagen1 {
+    text-align: center;
+}
+
+#imagen2 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(7, 7, 8, 0.582);
+    
+}
+
+#imagen2 {
+    text-align: center;
+}
+
+#imagen4 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(7, 7, 8, 0.582);
+    
+}
+
+#imagen4 {
+    text-align: center;
+}
+
+#imagen5 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(7, 7, 8, 0.582);
+    
+}
+
+#imagen5 {
+    text-align: center;
+}
+
+.contenedorCont h3 {
+    text-align: center;
+    background-color: rgba(0, 255, 179, 0.562);
+    color: #fff;
+}
+
+.contenedorCont p {
+    text-align: justify;
+    font-size: larger;
+    background-color: rgba(20, 61, 197, 0);
+    color: white;
+}
+
+.Alim p {
+    text-align: justify;
+    font-size: large;
+    background-color: rgba(20, 32, 197, 0);
+    color: white;
+}
+
+.Alim h4 {
+    text-align: center; 
+    font-size: large;
+    background-color: rgba(0, 255, 191, 0.555);
+    color: #fff;
+}
+
+.Comp p {
+    text-align: justify;
+    font-size: large;
+    background-color: rgba(32, 20, 197, 0);
+    color: #fff;
+}
+
+.Comp h4 {
+    text-align: center; 
+    font-size: large;
+    background-color: rgba(0, 255, 106, 0.356);
+    color: #fff;
+} 
+
+.Repro p {
+    text-align: justify;
+    font-size: large;
+    background-color: rgba(20, 197, 197, 0);
+    color: #fff;
+}
+
+.Repro h4 {
+    text-align: center;
+    font-size: larger; 
+    background-color: rgba(0, 255, 149, 0.267);
+    color: #fff;
+}
+
+.contenedor {
+    background-color: rgba(127, 255, 212, 0.384);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    
+}
+
